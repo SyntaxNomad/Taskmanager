@@ -1,0 +1,108 @@
+h1 {
+    font-family:  'Roboto', Helvetica, sans-serif;
+    color: #1B263B;
+    text-align: center;
+    font-size: 60px;
+}
+h2{
+    font-size: 40px;
+    color:#1B263B;
+    text-align: center;
+    
+  
+    
+}
+
+body {
+    background-image: url(5590457.jpg);
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+   
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+    align-items: center;
+}
+
+li {
+    display: flex;
+    gap: 10px;
+    color:black;
+}
+button{
+   height:25px;
+   width: 25px;
+   background-color: transparent;
+   border:none;
+}
+.task1{ 
+    height:50px;
+    width:110px;
+    background-color:#E63946;
+    border:2px solid white;
+    border-radius:7px;
+    color:black;
+    margin:10px;
+    font-size: 15px;
+    transition: background 0.3s ease, transform 0.2s;
+   
+   
+}
+.task1, .completed-task {
+    background-color: #F4A261; /* Warm orange */
+    color: white;
+    border: none;
+    padding: 12px 16px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s;
+}
+
+.task1:hover, .completed-task:hover {
+    background-color: #E76F51; /* Darker shade for hover */
+    transform: scale(1.05); /* Slight pop effect */
+}
+
+.task1:active, .completed-task:active {
+    transform: scale(0.95); /* Slight press-down effect */
+}
+    
+
+hr{
+    border: 2px solid  #1B263B;
+   
+}
+
+
+.brown-box {
+    background-color: aliceblue;
+    width: 900px;  /* Adjust as needed */
+    height: 900px; /* Adjust as needed */
+    padding: 20px; /* Adds space inside */
+    color: white;  /* Text color */
+    text-align: center;
+    border-radius: 10px; /* Optional: Rounded corners */
+    border: 2px solid black;
+    margin:50px auto;
+
+}
+
+#compitems{
+    background-color:darkseagreen;
+    width: 300px;
+    border-radius:5px;
+    margin: 60px auto;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+
+    
+}

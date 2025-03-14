@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Task Manager</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="brown-box">
+      <h1>Task Manager</h1>
+      <hr />
+      <input id="taskInput" placeholder="Enter Your Task" />
+      <button class="task1" onclick="addTask()">Add Task</button>
+      <h2>Waiting Tasks</h2>
+      <ul id="taskList"></ul>
+      <h2>Completed Tasks</h2>
+      <ul id="completedList"></ul>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
